@@ -6,7 +6,7 @@
             <span>{{headText}}</span>
         </div>
         <div class="operation" v-if="showFun">
-            <span @click="$router.push({path:'/search'})"><Icon  name="search"></Icon></span>
+            <span><Icon  name="search"></Icon></span>
             <!--<span @click="showBar"><Icon name="bars"></Icon></span>-->
         </div>
     </header>

@@ -9,7 +9,6 @@ import Ranklist from '@/components/Ranklist'
 import RanklistDetail from '@/components/RanklistDetail'
 import Book from '@/components/Book'
 import ReadBook from '@/components/ReadBook'
-import Search from '@/components/Search'
 import BookcatDetail from '@/components/BookcatDetail'
 
 Vue.use(Router);
@@ -45,10 +44,6 @@ export default new Router({
       path: '/book/:bookId',
       name: 'book',
       component: Book
-    }, {
-      path: '/search',
-      name: 'search',
-      component: Search
     }, {
       path: 'searchresult'
     }, {
